@@ -1,0 +1,45 @@
+Fall Quarter 2021:
+BIS 005 (1 unit)
+CHE 2A (5 units) QL, SE, SL
+DRA 040A (2 units) AH, VL
+NUT 010V (3 units) SL, SE
+
+Winter Quarter 2021:
+BIS 2B (5 units) QL, SE, SL, VL
+CHE 2B (5 units) QL, SE, SL
+FRS 002 (2 units)
+MAT 17A (4 units) QL, SE, SL
+
+Spring Quarter 2022:
+BIS 2A (5 units) SE
+FRS 002 (2 units)
+MAT 17B (4 units) QL, SE, SL
+
+Summer Session 2022:
+ANT 028 (2 units) SS
+CHE 2C (5 units) QL, SE, SL
+PSC 001 (4 units) SS
+
+Fall Quarter 2022:
+BIS 2C (5 units) OL, QL, SE, SL, VL
+CHE 118A (4 units) SE, SL
+MAT 17C (4 units) SE, SL
+MUS 010 (4 units) AH, VL, WC
+
+Winter Quarter 2023:
+AMS 059 (4 units) DD, ACGH, AH, SS, WE
+ANT 002 (5 units) DD, SS, WC, WE
+CHE 118B (4 units) SE, SL
+STA 100 (4 units) QL, SE
+
+Spring Quarter 2023:
+BIS 101 001 (4 units) QL, SE,SL
+ECH 001Y 003 (3 units) SE, SL, VL
+ENT 001 A03 (3 units) AH, OL, SE, SS, VL, WE
+HUM 002B 001 (4 units) AH, ACGH, WE
+
+Fall Quarter 2023: 
+CHE 118C (4 units) SE, SL
+EVE 100 (4 units) QL, SE, SL
+ANT 121 (4 units) SS, WC, WE
+BIS 102 (3 units) QL, SE
