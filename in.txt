@@ -1,3 +1,5 @@
+total 112
+
 Fall Quarter 2021:
 BIS 005 (1 unit)
 CHE 2A (5 units) QL, SE, SL

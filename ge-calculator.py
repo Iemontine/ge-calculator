@@ -1,6 +1,6 @@
 import json
 
-print("====GE REQUIREMENT CALCULATOR by dws ===\n")
+print("====GE REQUIREMENT CALCULATOR by dws===\n")
 
 # read input file and turn it into a json with the following form
 """
@@ -64,13 +64,20 @@ for course in courses: # loop through all courses
 print(f"You have completed {sum(course['units'] for course in currentFulfilled.values())} units so far.")
 print(f"You have {sum(course['units'] for course in coursesRemove.values())} units that have not been applied from the following classes: {[course for course in coursesRemove]}.\n")
 
-for requirement in requirements:
-    need = currentFulfilled[requirement]['units'] - requirements[requirement]
-    
-    if currentFulfilled[requirement]['units']: # if the number of fulfilled units in this category is non-zero
-        print(f"You fulfilled {currentFulfilled[requirement]['units']}/{requirements[requirement]} unit(s) of {requirement} using {currentFulfilled[requirement]['courses']}")
-    else:
-        print(f"You fulfilled {currentFulfilled[requirement]['units']}/{requirements[requirement]} unit(s) of {requirement}")
+with open("out.txt", "w") as f:
+    for requirement in requirements:
+        need = currentFulfilled[requirement]['units'] - requirements[requirement]
+        
+        if currentFulfilled[requirement]['units']: # if the number of fulfilled units in this category is non-zero
+            out = f"You fulfilled {currentFulfilled[requirement]['units']}/{requirements[requirement]} unit(s) of {requirement} from the following classes: {', '.join(currentFulfilled[requirement]['courses'])}"
+            print(out)
+            f.write(out + "\n")
+        else:
+            out = f"You fulfilled {currentFulfilled[requirement]['units']}/{requirements[requirement]} unit(s) of {requirement}"
+            print(out)
+            f.write(out + "\n")
 
-    if need < 0:
-        print("You need " + str(abs(need)) + " more units of " + requirement)
+        if need < 0:
+            out = f"You need {str(abs(need))} more units of {requirement}"
+            print(out)
+            f.write(out + "\n")
