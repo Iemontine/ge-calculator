@@ -17,7 +17,7 @@ print("====GE REQUIREMENT CALCULATOR by dws===\n")
 }
 """
 courses = {}
-with open("in.txt", "r") as f:
+with open("in2.txt", "r") as f:
     for line in f.readlines():
         if ")" in line and line != "":
             name = line[0:line.index("(")-1]
@@ -25,7 +25,7 @@ with open("in.txt", "r") as f:
             
             courses[name] = {"satisfies": {}, "units": 0}
             courses[name]["satisfies"] = satisfies.split(",")
-            courses[name]["units"] = int(line[line.index("(")+1:line.index("(")+2])
+            courses[name]["units"] = float(line[line.index("(")+1:line.index(" ", line.index("("))])
             with open("out.json", "w") as f2:
                 json.dump(courses, f2, indent=5)
 

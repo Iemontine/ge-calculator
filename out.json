@@ -1,225 +1,149 @@
 {
-     "BIS 005": {
-          "satisfies": [
-               ""
-          ],
-          "units": 1
-     },
-     "CHE 2A": {
-          "satisfies": [
-               "QL",
-               "SE",
-               "SL"
-          ],
-          "units": 5
-     },
-     "DRA 040A": {
-          "satisfies": [
-               "AH",
-               "VL"
-          ],
-          "units": 2
-     },
-     "NUT 010V": {
-          "satisfies": [
-               "SL",
-               "SE"
-          ],
-          "units": 3
-     },
-     "BIS 2B": {
-          "satisfies": [
-               "QL",
-               "SE",
-               "SL",
-               "VL"
-          ],
-          "units": 5
-     },
-     "CHE 2B": {
-          "satisfies": [
-               "QL",
-               "SE",
-               "SL"
-          ],
-          "units": 5
-     },
-     "FRS 002": {
-          "satisfies": [
-               ""
-          ],
-          "units": 2
-     },
-     "MAT 17A": {
-          "satisfies": [
-               "QL",
-               "SE",
-               "SL"
-          ],
-          "units": 4
-     },
-     "BIS 2A": {
+     "ECS 036A": {
           "satisfies": [
                "SE"
           ],
-          "units": 5
+          "units": 4.5
      },
-     "MAT 17B": {
+     "ECS 036B": {
+          "satisfies": [
+               "SE"
+          ],
+          "units": 4.5
+     },
+     "MAT 021A": {
           "satisfies": [
                "QL",
                "SE",
                "SL"
           ],
-          "units": 4
+          "units": 7.5
      },
-     "ANT 028": {
+     "ENGL 001": {
           "satisfies": [
+               "AH"
+          ],
+          "units": 6.0
+     },
+     "ECS 050": {
+          "satisfies": [
+               "SE"
+          ],
+          "units": 4.5
+     },
+     "MAT 021B": {
+          "satisfies": [
+               "QL",
+               "SE"
+          ],
+          "units": 7.5
+     },
+     "ECON 002": {
+          "satisfies": [
+               "ACGH",
+               "QL",
                "SS"
           ],
-          "units": 2
+          "units": 4.5
      },
-     "CHE 2C": {
+     "HIS 017B": {
+          "satisfies": [
+               "ACGH",
+               "DD",
+               "AH",
+               "SS"
+          ],
+          "units": 4.5
+     },
+     "CHE 002A": {
           "satisfies": [
                "QL",
                "SE",
                "SL"
           ],
-          "units": 5
+          "units": 3.5
+     },
+     "CHE 002B": {
+          "satisfies": [
+               "QL",
+               "SE",
+               "SL"
+          ],
+          "units": 4.0
+     },
+     "CMN 001": {
+          "satisfies": [
+               "OL",
+               "AH",
+               "SS"
+          ],
+          "units": 4.5
+     },
+     "ECS 020": {
+          "satisfies": [
+               "QL",
+               "SE"
+          ],
+          "units": 4.5
+     },
+     "MAT 021C": {
+          "satisfies": [
+               "QL",
+               "SE"
+          ],
+          "units": 3.0
+     },
+     "MAT 021D": {
+          "satisfies": [
+               "QL",
+               "SE"
+          ],
+          "units": 3.0
+     },
+     "BIS 002A": {
+          "satisfies": [
+               "SE"
+          ],
+          "units": 7.5
+     },
+     "CHE 002C": {
+          "satisfies": [
+               "QL",
+               "SE",
+               "SL"
+          ],
+          "units": 7.5
+     },
+     "MAT 022A": {
+          "satisfies": [
+               "QL",
+               "SE"
+          ],
+          "units": 4.5
      },
      "PSC 001": {
           "satisfies": [
                "SS"
           ],
-          "units": 4
+          "units": 4.5
      },
-     "BIS 2C": {
+     "ECS 036C": {
           "satisfies": [
-               "OL",
-               "QL",
-               "SE",
-               "SL",
-               "VL"
-          ],
-          "units": 5
-     },
-     "CHE 118A": {
-          "satisfies": [
-               "SE",
-               "SL"
-          ],
-          "units": 4
-     },
-     "MAT 17C": {
-          "satisfies": [
-               "SE",
-               "SL"
-          ],
-          "units": 4
-     },
-     "MUS 010": {
-          "satisfies": [
-               "AH",
-               "VL",
-               "WC"
-          ],
-          "units": 4
-     },
-     "AMS 059": {
-          "satisfies": [
-               "DD",
-               "ACGH",
-               "AH",
-               "SS",
-               "WE"
-          ],
-          "units": 4
-     },
-     "ANT 002": {
-          "satisfies": [
-               "DD",
-               "SS",
-               "WC",
-               "WE"
-          ],
-          "units": 5
-     },
-     "CHE 118B": {
-          "satisfies": [
-               "SE",
-               "SL"
-          ],
-          "units": 4
-     },
-     "STA 100": {
-          "satisfies": [
-               "QL",
                "SE"
           ],
-          "units": 4
+          "units": 4.0
      },
-     "BIS 101 001": {
+     "ECS 154A": {
           "satisfies": [
-               "QL",
-               "SE",
-               "SL"
+               "SE"
           ],
-          "units": 4
+          "units": 4.0
      },
-     "ECH 001Y 003": {
-          "satisfies": [
-               "SE",
-               "SL",
-               "VL"
-          ],
-          "units": 3
-     },
-     "ENT 001 A03": {
+     "UWP 104E": {
           "satisfies": [
                "AH",
-               "OL",
-               "SE",
-               "SS",
-               "VL",
-               "WE"
+               "W"
           ],
-          "units": 3
-     },
-     "HUM 002B 001": {
-          "satisfies": [
-               "AH",
-               "ACGH",
-               "WE"
-          ],
-          "units": 4
-     },
-     "CHE 118C": {
-          "satisfies": [
-               "SE",
-               "SL"
-          ],
-          "units": 4
-     },
-     "EVE 100": {
-          "satisfies": [
-               "QL",
-               "SE",
-               "SL"
-          ],
-          "units": 4
-     },
-     "ANT 121": {
-          "satisfies": [
-               "SS",
-               "WC",
-               "WE"
-          ],
-          "units": 4
-     },
-     "BIS 102": {
-          "satisfies": [
-               "QL",
-               "S"
-          ],
-          "units": 3
+          "units": 4.0
      }
 }
